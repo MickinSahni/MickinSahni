@@ -1578,7 +1578,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -2104,7 +2104,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		list-style: none;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
@@ -2144,7 +2144,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 1.5em;
+					font-size: 1em;
 				}
 
 		ul.actions {
@@ -2465,7 +2465,7 @@
 	#header {
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
@@ -2501,8 +2501,10 @@
 
 /* Footer */
 
+
+
 	#footer {
-		bottom: 0;
+		bottom: 100;
 		left: 0;
 		padding: 0 4em 6em 0;
 		position: fixed;
@@ -2515,7 +2517,8 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.4); 
+
 			}
 
 		#footer .copyright {
@@ -2931,7 +2934,7 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
